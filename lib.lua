@@ -9,7 +9,7 @@ local CoreGui = game:GetService("CoreGui")
 
 local IsLocal,Assets,LocalPlayer = false,{},PlayerService.LocalPlayer
 local MainAssetFolder = IsLocal and ReplicatedStorage.BracketV33
-	or InsertService:LoadLocalAsset("rbxassetid://10827276896")
+	or InsertService:LoadLocalAsset("rbxassetid://122496044316292")
 
 local function GetAsset(AssetPath)
 	AssetPath = AssetPath:split("/")
